@@ -115,7 +115,7 @@ kubectl apply -f service.yaml
 
 ```bash
 kubectl get pods
-kubectl exec -it <pod-name> -c multitool -- curl http://localhost
+kubectl exec -it web-app-769f88dbd5-7ph9z -c multitool -- curl http://localhost
 ```
 
 ![image](https://github.com/user-attachments/assets/6d1871f1-8e19-4889-8707-429211a988d1)
