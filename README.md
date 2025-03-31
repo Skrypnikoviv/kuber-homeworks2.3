@@ -280,5 +280,6 @@ kubectl apply -f ingress.yaml
 
 ```bash
 # Добавляем запись в /etc/hosts или используем curl с заголовком Host
-curl -k https://my-app.example.com --resolve my-app.example.com:443:<ingress-ip>
+curl -k https://my-app.example.com --resolve my-app.example.com:443:10.1.214.173
 ```
+![image](https://github.com/user-attachments/assets/04cf9f79-ee9b-4055-bbb6-f721f92d6914)
