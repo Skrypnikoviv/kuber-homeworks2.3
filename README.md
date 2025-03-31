@@ -118,7 +118,8 @@ kubectl get pods
 kubectl exec -it <pod-name> -c multitool -- curl http://localhost
 ```
 
-Вывод должен показать HTML-страницу из ConfigMap.
+![image](https://github.com/user-attachments/assets/6d1871f1-8e19-4889-8707-429211a988d1)
+
 
 ## Задание 2. Веб-приложение с HTTPS
 
